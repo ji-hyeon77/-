@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-19",
+  "site_version": 16,
+  "final_url": "https://dialysis-os-haru.jovial-comet-6952.chatgpt.site",
+  "public_main": "6b2da8428afdc7148166cbf55d3c610d762df093",
+  "public_branch_before": "75bb707c6c6bf1ff5b959380f6078181ac8c5240",
+  "private_main_before": "838362eb669e5ff82f1512e12a0ba4be4884466b",
+  "source_sha256": {
+    "live.html": "fc0bc3cb305245d5c01c461f99e0bbcad69fe338fc5822b023a09e3c273f636f",
+    "core.js": "d3166d34602ac51609d177d9bd06fb719909ee7284981e62cdc5c6f0b03af57d",
+    "app.js": "a718b9ac80bfa19e381f30d198a719271d30fce282467d3f93333f76c4c18205"
+  },
+  "code_before_after_identical": true,
+  "qr": {
+    "filename": "HARU_QR.png",
+    "sha256": "bcc5fc1fdb26e8094c1cb26c4a2e3b2881ed506b9a0ab869f7c171d1a3ed498e",
+    "decoded": [
+      "https://dialysis-os-haru.jovial-comet-6952.chatgpt.site"
+    ]
+  },
+  "real_participants": 0,
+  "production_deployed": false,
+  "portfolio_created_or_modified": false
+}

@@ -1,0 +1,9 @@
+{
+  "prior_day_unchanged": true,
+  "before_measurements": 5,
+  "preserved_measurements": 5,
+  "record_days_before": 1,
+  "record_days_after": 2,
+  "schedule_unchanged": true,
+  "exceptions_unchanged": true
+}

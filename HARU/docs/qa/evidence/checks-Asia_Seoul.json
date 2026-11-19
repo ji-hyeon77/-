@@ -1,0 +1,192 @@
+{
+  "runAt": "2026-11-19T03:54:34.274Z",
+  "timezone": "Asia/Seoul",
+  "node": "v24.22.3",
+  "target": "downloaded production v16 source; not browser E2E; not prior 47 tests",
+  "results": [
+    {
+      "id": "A01",
+      "name": "invalid calendar date rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "A02",
+      "name": "future date rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "A03",
+      "name": "future measurement time rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "A04",
+      "name": "incomplete BP rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "A05",
+      "name": "reversed BP rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "A06",
+      "name": "negative weight rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "A07",
+      "name": "fractional glucose rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "A08",
+      "name": "partial BP record keeps other fields empty",
+      "status": "PASS"
+    },
+    {
+      "id": "A09",
+      "name": "same-minute BP IDs preserved",
+      "status": "PASS"
+    },
+    {
+      "id": "A10",
+      "name": "weight contexts and individual times preserved",
+      "status": "PASS"
+    },
+    {
+      "id": "A11",
+      "name": "deleted final BP does not resurrect legacy scalar",
+      "status": "PASS"
+    },
+    {
+      "id": "A12",
+      "name": "legacy values preserve unknown time",
+      "status": "PASS"
+    },
+    {
+      "id": "A13",
+      "name": "read does not mutate raw JSON",
+      "status": "PASS"
+    },
+    {
+      "id": "A14",
+      "name": "corrupt JSON blocks overwrite",
+      "status": "PASS"
+    },
+    {
+      "id": "A15",
+      "name": "stale writer refused",
+      "status": "PASS"
+    },
+    {
+      "id": "A16",
+      "name": "target quota failure preserves records",
+      "status": "PASS"
+    },
+    {
+      "id": "A17",
+      "name": "first backup preserves original raw strings",
+      "status": "PASS"
+    },
+    {
+      "id": "A18",
+      "name": "undo restores deletion once only",
+      "status": "PASS"
+    },
+    {
+      "id": "A19",
+      "name": "undo refuses later divergence",
+      "status": "PASS"
+    },
+    {
+      "id": "A20",
+      "name": "duplicate record date rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "A21",
+      "name": "duplicate measurement ID rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "A22",
+      "name": "schedule validates unique weekdays and time",
+      "status": "PASS"
+    },
+    {
+      "id": "A23",
+      "name": "date exception boolean validated",
+      "status": "PASS"
+    },
+    {
+      "id": "A24",
+      "name": "rolling seven calendar days boundaries",
+      "status": "PASS"
+    },
+    {
+      "id": "A25",
+      "name": "reversed summary range rejected",
+      "status": "PASS"
+    },
+    {
+      "id": "A26",
+      "name": "mixed emergency phrase overrides nutrition",
+      "status": "PASS"
+    },
+    {
+      "id": "A27",
+      "name": "insulin request returns fixed refusal",
+      "status": "PASS"
+    },
+    {
+      "id": "A28",
+      "name": "fluid request does not calculate personal amount",
+      "status": "PASS"
+    },
+    {
+      "id": "A29",
+      "name": "unmatched question falls back",
+      "status": "PASS"
+    },
+    {
+      "id": "A30",
+      "name": "valid restore date merge keeps entire existing day and schedule",
+      "status": "PASS"
+    },
+    {
+      "id": "A31",
+      "name": "restore rejects negative glucose measurement",
+      "status": "FAIL",
+      "observed": "Missing expected exception."
+    },
+    {
+      "id": "A32",
+      "name": "restore rejects reversed BP pair",
+      "status": "FAIL",
+      "observed": "Missing expected exception."
+    },
+    {
+      "id": "A33",
+      "name": "restore rejects future record date",
+      "status": "FAIL",
+      "observed": "Missing expected exception."
+    },
+    {
+      "id": "A34",
+      "name": "emergency colloquial chest pain precedes food",
+      "status": "PASS"
+    },
+    {
+      "id": "A35",
+      "name": "emergency speech impairment precedes food",
+      "status": "FAIL",
+      "observed": "Expected values to be strictly equal:\n+ actual - expected\n\n+ 'F-01'\n- 'EMERGENCY'\n"
+    }
+  ],
+  "summary": {
+    "total": 35,
+    "pass": 31,
+    "fail": 4
+  }
+}
